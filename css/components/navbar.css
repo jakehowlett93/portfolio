@@ -1,0 +1,13 @@
+header {
+  text-align: right;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+}

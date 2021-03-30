@@ -1,5 +1,5 @@
 body {
-  background-color: #181E23 !important;
+  background-color: #181e23 !important;
 }
 
 .main-container {
@@ -8,96 +8,105 @@ body {
 }
 
 #index-title {
-  font-size: 5em;
-  max-width: 90vw;
+  font-size: 2em;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
 .editorial {
-  display: block;
-  width: 100%;
-  height: 60px;
-  max-height: 60px;
-  margin: 0;
-  z-index:5;
-  bottom:0;
-  position:absolute;
-  left:0px;
-  float:left;
+  display: none;
 }
 
-.parallax1 > use {
-  animation: move-forever1 10s linear infinite;
-}
+@media (min-width: 768px) {
 
-.parallax1:nth-child(1) {
-  animation-delay: -2s;
-}
-
-.parallax2 > use {
-  animation: move-forever2 8s linear infinite;
-}
-
-.parallax2:nth-child(1) {
-  animation-delay: -2s;
-}
-
-.parallax3 > use {
-  animation: move-forever3 6s linear infinite;
-}
-
-.parallax3:nth-child(1) {
-  animation-delay: -2s;
-}
-
-.parallax4 > use {
-  animation: move-forever4 4s linear infinite;
-}
-
-.parallax5:nth-child(1) {
-  animation-delay: -2s;
-}
-
-@keyframes move-forever1 {
-  0% {
-    transform: translate(85px, 0%);
+  .editorial {
+    display: block;
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    z-index:5;
+    bottom:0;
+    position:absolute;
+    left:0px;
+    float:left;
   }
-  100% {
-    transform: translate(-90px, 0%);
-  }
-}
-@keyframes move-forever2 {
-  0% {
-    transform: translate(-90px, 0%);
-  }
-  100% {
-    transform: translate(85px, 0%);
-  }
-}
-@keyframes move-forever3 {
-  0% {
-    transform: translate(85px, 0%);
-  }
-  100% {
-    transform: translate(-90px, 0%);
-  }
-}
-@keyframes move-forever4 {
-  0% {
-    transform: translate(-90px, 0%);
-  }
-  100% {
-    transform: translate(85px, 0%);
-  }
-}
 
+  #index-title {
+    font-size: 5em;
+    max-width: 90vw;
+  }
 
-@media only screen and (min-width: 768px) {
   .height {
   height: 100vh;
   }
 
   #index-title {
     max-width: 80vw;
+  }
+
+  .parallax1 > use {
+  animation: move-forever1 10s linear infinite;
+  }
+
+  .parallax1:nth-child(1) {
+    animation-delay: -2s;
+  }
+
+  .parallax2 > use {
+    animation: move-forever2 8s linear infinite;
+  }
+
+  .parallax2:nth-child(1) {
+    animation-delay: -2s;
+  }
+
+  .parallax3 > use {
+    animation: move-forever3 6s linear infinite;
+  }
+
+  .parallax3:nth-child(1) {
+    animation-delay: -2s;
+  }
+
+  .parallax4 > use {
+    animation: move-forever4 4s linear infinite;
+  }
+
+  .parallax5:nth-child(1) {
+    animation-delay: -2s;
+  }
+
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever4 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
   }
 }

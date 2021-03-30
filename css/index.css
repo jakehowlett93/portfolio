@@ -8,7 +8,7 @@ body {
 }
 
 #index-title {
-  font-size: 2em;
+  font-size: 2.5em;
   max-width: 80vw;
   margin: 0 auto;
 }
@@ -17,7 +17,7 @@ body {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
   .editorial {
     display: block;
@@ -34,15 +34,11 @@ body {
 
   #index-title {
     font-size: 5em;
-    max-width: 90vw;
+    max-width: 890px;
   }
 
   .height {
   height: 100vh;
-  }
-
-  #index-title {
-    max-width: 80vw;
   }
 
   .parallax1 > use {

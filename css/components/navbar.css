@@ -7,9 +7,19 @@ header a {
   color: white;
   text-decoration: none;
   font-size: 1.1em;
-  padding-right: 4px;
+  padding-right: 16px;
 }
 
 header a:hover {
   color: white;
+}
+
+#link-project {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  #link-project {
+    display: inline;
+  }
 }

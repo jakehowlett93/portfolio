@@ -28,6 +28,7 @@ footer h6 {
 #index-title {
   font-size: 2.5em;
   width: fit-content;
+  padding: 44px 0;
 }
 
 .editorial {
@@ -36,6 +37,10 @@ footer h6 {
 
 .center {
   margin: 0 auto;
+}
+
+#article-pythia {
+   
 }
 
 @media (min-width: 992px) {
@@ -56,6 +61,8 @@ footer h6 {
   #index-title {
     font-size: 5em;
     width: min-content;
+    padding: 0;
+    line-height: 1em;
   }
 
   .height {

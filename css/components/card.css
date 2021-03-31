@@ -5,10 +5,14 @@
   margin: 0 16px;
 }
 
+.cards a:hover {
+  color: #3461c1;
+}
+
 .card-index {
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 23vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,35 +24,54 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-// Smallest device
+#card-pythia {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/pythia-home.PNG);
+  background-position: left;
+}
+
+#card-airbnjh93 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/airbnjh93-home.PNG);
+  background-position: center;
+}
+
+#card-bar93 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/bar93-home.PNG);
+  background-position: center;
+}
+
+#card-movie-search {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/movie-search-home.PNG);
+  background-position: center;
+}
+
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+
+ .card-index {
+    height: 40vh;
+  }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr;

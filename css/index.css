@@ -51,6 +51,10 @@ footer h6 {
   font-size: 12px;
 }
 
+.medium-image {
+  width: 40vw;
+}
+
 .article-row {
   display: flex;
   align-items: center;
@@ -95,10 +99,6 @@ footer h6 {
     position:absolute;
     left:0px;
     float:left;
-  }
-
-  .medium-image {
-    width: 40vw;
   }
 
   #index-title {

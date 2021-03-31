@@ -30,17 +30,17 @@
 }
 
 #card-airbnjh93 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/airbnjh93-home.PNG);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://github.com/jakehowlett93/portfolio/blob/master/media/airbnjh93-home.PNG?raw=true");
   background-position: center;
 }
 
 #card-bar93 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/bar93-home.PNG);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://github.com/jakehowlett93/portfolio/blob/master/media/bar93-home.PNG?raw=true");
   background-position: center;
 }
 
 #card-movie-search {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/movie-search-home.PNG);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://github.com/jakehowlett93/portfolio/blob/master/media/movie-search-home.PNG?raw=true");
   background-position: center;
 }
 

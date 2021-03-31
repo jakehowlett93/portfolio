@@ -70,6 +70,10 @@
  .card-index {
     height: 40vh;
   }
+
+  .vh-40 {
+    height: 40vh;
+  }
 }
 
 @media (min-width: 1200px) {

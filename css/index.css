@@ -40,7 +40,19 @@ footer h6 {
 }
 
 #article-pythia {
-   
+  background-color: white;
+}
+
+#article-airbnjh93 {
+  background-color: grey;
+}
+
+#article-bar93 {
+  background-color: black;
+}
+
+#article-movie-search {
+  background-color: #7cc3d9;
 }
 
 @media (min-width: 992px) {
@@ -63,6 +75,7 @@ footer h6 {
     width: min-content;
     padding: 0;
     line-height: 1em;
+    
   }
 
   .height {

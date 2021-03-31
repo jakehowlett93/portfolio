@@ -1,5 +1,6 @@
 body {
   background-color: #181e23 !important;
+  font-family: 'Inter', sans-serif;
 }
 
 footer h6 {
@@ -49,10 +50,12 @@ footer h6 {
 
 .index-copy {
   font-size: 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .medium-image {
   width: 40vw;
+  border: 1px solid black;
 }
 
 .article-row {

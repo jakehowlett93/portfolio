@@ -39,8 +39,17 @@ footer h6 {
   margin: 0 auto;
 }
 
+.height {
+  height: 50vh;
+}
+
+#section-title {
+  height: auto;
+}
+
 #article-pythia {
   background-color: white;
+  color: black;
 }
 
 #article-airbnjh93 {
@@ -73,7 +82,7 @@ footer h6 {
   #index-title {
     font-size: 5em;
     width: min-content;
-    padding: 0;
+    padding: 32px 0 0 0;
     line-height: 1em;
     
   }

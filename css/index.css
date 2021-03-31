@@ -5,6 +5,12 @@ body {
 
 footer h6 {
   width: fit-content;
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
 }
 
 .main-container {
@@ -111,12 +117,23 @@ footer h6 {
     line-height: 1em;
   }
 
+  .center-text {
+    text-align: center;
+  }
+
   .index-copy {
     font-size: 16px;
   }
 
   .height {
   height: 100vh;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 98vw;
   }
 
   .parallax1 > use {

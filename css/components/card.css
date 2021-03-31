@@ -25,7 +25,7 @@
 }
 
 #card-pythia {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/media/pythia-home.PNG);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://github.com/jakehowlett93/portfolio/blob/master/media/pythia-home.PNG?raw=true");
   background-position: left;
 }
 

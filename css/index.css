@@ -81,6 +81,7 @@ ul {
 
 #article-airbnjh93 {
   background-color: rgba(255, 255, 255, 0.952);
+  color: black;
 }
 
 #article-bar93 {
@@ -89,6 +90,10 @@ ul {
 
 #article-movie-search {
   background-color: #7cc3d9;
+}
+
+#section-cards {
+  height: 100vh;
 }
 
 @media (min-width: 992px) {

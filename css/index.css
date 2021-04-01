@@ -13,6 +13,11 @@ ul {
   list-style-type: none;
 }
 
+article h2 {
+  font-size: 52px;
+  padding-left: 24px;
+}
+
 .main-container {
   color: white;
   font-size: 1.5em;
@@ -87,12 +92,12 @@ ul {
 }
 
 #article-pythia {
-  background-color: rgb(199, 198, 198);
+  background-color: #7B6D8D;
   color: black;
 }
 
 #article-airbnjh93 {
-  background-color: rgba(255, 255, 255, 0.952);
+  background-color: #fafafaec;
   color: black;
 }
 
@@ -101,7 +106,7 @@ ul {
 }
 
 #article-movie-search {
-  background-color: #7cc3d9cc;
+  background-color: #4da1a9;
 }
 
 #section-cards {
@@ -143,7 +148,8 @@ ul {
   }
 
   .height {
-  height: 100vh;
+  height: 107vh;
+  
   }
 
   .contact-details {

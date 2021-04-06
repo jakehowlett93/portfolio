@@ -48,11 +48,19 @@
   .cards {
     grid-template-columns: 1fr;
   }
+
+  .card-index {
+    height: 20vh;
+  }
 }
 
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+
+  .card-index {
+    height: 20vh;
   }
 }
 

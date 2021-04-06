@@ -82,8 +82,8 @@
       </div>
     </section>
 
-    <article id="article-pythia" class="height p-2 d-flex flex-column justify-content-between">
-      <h2 class="py-2">Pythia</h2>
+    <article id="article-pythia" class="height p-2 d-flex flex-column justify-content-around">
+      <h2 class="pt-2">Pythia</h2>
       <div class="article-row">
         <div class="article-column">
           <h3>Empowering People</h3>
@@ -117,8 +117,8 @@
       </div>
     </article>
 
-    <article id="article-airbnjh93" class="height d-flex flex-column justify-content-between">
-      <h2 class="py-3">Airbnjh93</h2>
+    <article id="article-airbnjh93" class="height d-flex flex-column justify-content-around">
+      <h2 class="pt-3">Airbnjh93</h2>
       <div class="article-row">
         <div class="article-column">
           <h3>Teams and Code Reviews</h3>
@@ -154,56 +154,54 @@
     <article id="article-bar93" class="height ">
       <h2 class="py-3">Bar93</h2>
       <div id="bar93-container" class="px-3">
-        <div class="align-self-start mt-3 border border-white p-2 rounded">
-          <h3>Rails, Databases and SCSS</h3>
+        <div class="align-self-start mt-3">
+          <h3>Ruby on Rails</h3>
           <p class="index-copy" >
             This was my first project using rails with minimal guidance, I designed, implemented, and bug
-            fixed all features, taking the project from start to finish on my own. The app lets users
+            fixed all the features, taking the project from start to finish on my own. The app lets users
             add cocktails and ingredients to the database which can then be viewed on the website.
             I used SCSS for the styling, taking advantage of the nested CSS classes feature.
             <a href="https://mister-cocktail-jh93.herokuapp.com/" target="_blank">Visit Bar93</a>
           </p>
         </div>
         <img class="large-image" src="media/bar93-copy1.PNG" alt="A picture of a webpage">
-        <div class="align-self-end border border-white p-2 rounded">
-          <h3>Rails, Databases and SCSS</h3>
+        <div class="align-self-end">
+          <h3>Db schema and Heroku</h3>
           <p class="index-copy">
-            This was my first project using rails with minimal guidance, I designed, implemented, and bug
-            fixed all features, taking the project from start to finish on my own. The app lets users
-            add cocktails and their ingredients to the database which they can then be viewed on the website.
-            I used SCSS for the styling, taking advantage of the nested CSS classes feature.
-            <a href="https://www.pythiaapp.io" target="_blank">Visit Pythia</a>
+            I created the database schema and table relations myself, the app uses a postgres database hosted on 
+            Heroku. Cloudinary is used alongside active record so that images can be hosted externally from the database 
+            whilst still being attached to records.
+            <a href="https://github.com/jakehowlett93/movie-search" target="_blank">View Repository</a>
           </p>
         </div>
       </div>
     </article>
 
-    <article id="article-movie-search" class="height d-flex flex-column justify-content-between">
-      <h2 class="py-3">Movie Search</h2>
+    <article id="article-movie-search" class="height d-flex flex-column justify-content-around">
+      <h2 class="pt-3">Movie Search</h2>
       <div class="article-row">
         <div class="article-column">
-          <h3>Empowering People</h3>
-          <p class="index-copy">A website that allows non-tech users to explore and visualize their databse without needing
-            to learn SQL or hire an analyst. This project was built as a team of 4, using GitHub for version
-            control, and GitHub issues for ticket tracking. We used the rails framework alongside HTML, SCSS
-            and JS to build the app. <a href="https://www.pythiaapp.io" target="_blank">Visit Pythia</a>
+          <h3>React and Redux</h3>
+          <p class="index-copy">This web app allows users to search the OMDb for films and series. I built it to 
+            practice the skills I was learning from a React course on Udemy. I also used Redux-thunk to make 
+            asynchronous api requests inside one of my 
+            <a href="https://github.com/jakehowlett93/movie-search/blob/master/src/actions/fetchMovies/index.js">actions</a>. 
+            <a href="https://jh-movie-search.netlify.app/" target="_blank">Visit Movie Search</a>
           </p>
         </div>
         <div class="article-column pt-0">
-          <img class="medium-image" src="media/pythia-copy1.PNG" alt="A picture of a webpage showing a map">
+          <img class="medium-image" src="media/movie-search-copy1.PNG" alt="A picture of a webpage showing a map">
         </div>
       </div>
       <div class="article-row">
         <div class="article-column">
-          <img class="medium-image mobile-hide" src="media/pythia-copy2.PNG" alt="A picture of a webpage showing a form">
+          <img class="medium-image mobile-hide" src="media/movie-search-copy2.PNG" alt="A picture of a webpage showing a form">
         </div>
         <div class="article-column">
-          <h3>Backend</h3>
-          <p class="index-copy">I focused almost exclusively on the backend for this project, I worked on the seed file,
-            generated
-            some of the models and controllers then adding their validations and methods. My favourite
-            part was building the logic that turns the query form into an actual SQL query. The app uses a postgres database
-            hosted on Heroku. <a href="https://github.com/louisleslie/pythia-app" target="_blank">View Repository</a>
+          <h3>React track</h3>
+          <p class="index-copy">I built this website before learning about hooks, I would like to come back at some point
+            and refactor the code to use them. I'm currently working through a React track offered by Le Wagon to improve 
+            my skills <a href="https://github.com/jakehowlett93/movie-search" target="_blank">View Repository</a>
           </p>
         </div>
       </div>
@@ -228,7 +226,7 @@
     </section>
 
     <footer class="pb-2">
-      <h6 class="center">Built using HTML, CSS, JS and Bootstrap</h6>
+      <h6 class="center">Built using HTML, CSS, and Bootstrap</h6>
     </footer>
   </div>
 

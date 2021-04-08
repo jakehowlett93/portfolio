@@ -170,6 +170,10 @@ article h3 {
     height: 25vh;
   }
 
+  .height {
+    height: 700px;
+  }
+
   .large-image {
     width: 35vw;
   }

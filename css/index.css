@@ -242,10 +242,6 @@ article h3 {
     line-height: 1em;
   }
 
-  .center-text {
-    text-align: center;
-  }
-
   .article-row {
     display: flex;
     align-items: center;
